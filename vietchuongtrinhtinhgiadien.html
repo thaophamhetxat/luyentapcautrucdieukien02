@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt('nhập số KnW điện:'));
+    let s;
+    if (a > 0 && a < 50) {
+        s = a * 1678;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 1 = ' + s + ' VND');
+    }
+    if (a > 51 && a < 100) {
+        s = a * 1734;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 2 = ' + s + ' VND');
+    }
+    if (a > 101 && a < 200) {
+        s = a * 2014;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 3 = ' + s + ' VND');
+    }
+    if (a > 201 && a < 300) {
+        s = a * 2536;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 4 = ' + s + ' VND');
+    }
+    if (a > 301 && a < 400) {
+        s = a * 2834;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 5 = ' + s + ' VND');
+    }
+    if (a > 400 ) {
+        s = a * 2927;
+        alert('Gía bán điện sinh hoạt của bạn tính theo Bậc 6 = ' + s + ' VND');
+    }
+
+</script>
+</body>
+</html>

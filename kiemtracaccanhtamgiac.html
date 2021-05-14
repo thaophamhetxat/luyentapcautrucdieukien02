@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseFloat(prompt('Nhập a :'));
+    let b = parseFloat(prompt('Nhập b :'));
+    let c = parseFloat(prompt('Nhập c :'));
+    if (a > 0 && b > 0 && c > 0) {
+        if (a + b > c) {
+            if (b + c > a) {
+                if (a + c > b) {
+                    alert(' a,b,c là các cạnh của tam giác');
+                }
+            }
+        }
+    } else {
+        alert('Đây không phải là tam giác');
+    }
+
+
+</script>
+</body>
+</html>
